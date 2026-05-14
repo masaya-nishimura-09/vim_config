@@ -57,3 +57,26 @@ let NERDTreeShowHidden=1
 nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <silent> <Esc><Esc> :<C-u>nohlsearch<CR>
 nmap <silent> ga <Plug>(coc-codeaction-cursor)
+
+" ==================================================
+" CocConfig Extensions
+" ==================================================
+let g:coc_global_extensions = [
+  \ 'coc-json',
+  \ 'coc-tsserver',
+  \ 'coc-pyright',
+  \ 'coc-eslint',
+  \ 'coc-prettier',
+  \ 'coc-css',
+  \ 'coc-html',
+  \ 'coc-html-css-support',
+  \ 'coc-tailwindcss',
+  \ 'coc-clangd',
+  \ 'coc-go',
+  \ 'coc-java',
+  \ 'coc-kotlin',
+  \ 'coc-docker',
+  \ 'coc-sh',
+  \ 'coc-sql',
+  \ 'coc-markdownlint'
+  \ ]
